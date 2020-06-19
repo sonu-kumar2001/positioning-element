@@ -73,7 +73,6 @@ h1 {
 }
 .col-1{
     width: calc(25% - 20px);
-    padding-top: 55px;
 }
 .col-2 {
     width: calc(50% - 20px);
