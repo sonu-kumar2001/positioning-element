@@ -73,6 +73,7 @@ h1 {
 }
 .col-1{
     width: calc(25% - 20px);
+    padding-top: 55px;
 }
 .col-2 {
     width: calc(50% - 20px);
@@ -91,12 +92,20 @@ img {
 /* typography */
 h2 {
     font-size: 30px;
-    font-family: 700;
+    font-weight: 700;
     color: #604746;
 }
 p {
     font-size: 17px;
     color: #604746;
+}
+a {
+    text-decoration: none;
+    color: #604746;
+    font-size: 20px;
+}
+li {
+    margin-bottom: 5px;
 }
 .container p {
     margin-bottom: 10px;
@@ -104,10 +113,11 @@ p {
     line-height: 1.5;
 }
 .indent {
-    padding-left: 8px;
+    padding:0 10px;
 }
 .last-para {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight: 600;
+    line-height: 1.6;
 }
