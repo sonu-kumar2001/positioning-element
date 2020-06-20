@@ -124,7 +124,7 @@ h1 {
 .second {
     background-color: white;
     margin-top: 160px;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 article {
     float: left;
@@ -156,6 +156,7 @@ article a {
 }
 .parent h2 {
     font-size: 33px;
+    color: white;
 }
 .parent p {
     color: #BBCDE6;
@@ -164,6 +165,7 @@ article a {
 .parent img {
     border-radius: 50%;
     width: 90%;
+    padding: 20px 0;
 }
 .col2-para {
     margin-bottom: 30px;
