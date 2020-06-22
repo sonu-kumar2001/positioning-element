@@ -59,6 +59,10 @@ body {
 h3 {
     font-size: 25px;
 }
+h1 {
+    font-size: 45px;
+    color: white;
+}
 h2 {
     font-size: 25px;
     color: #5385C1;
@@ -67,6 +71,9 @@ p {
     font-size: 20px;
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
 }
 /* header */
 header {
@@ -78,7 +85,6 @@ header li {
     vertical-align: middle;
 }
 li a {
-    text-decoration: none;
     color: #BBCDE6;
 }
 li {
@@ -112,10 +118,7 @@ nav {
     text-align: center;
     margin-top: 80px;
 }
-h1 {
-    font-size: 45px;
-    color: white;
-}
+
 .hero p {
     color: #BBCDE6;
     padding-top: 20px;
@@ -126,7 +129,7 @@ h1 {
     margin-top: 160px;
     padding: 50px 0;
 }
-article {
+.first article {
     float: left;
     width: calc(33.33% - 40px);
     margin: 20px 20px;
@@ -135,7 +138,6 @@ article p {
     margin: 30px 0;
 }
 article a {
-    text-decoration: none;
     border: 0;
     background-color: #5385C1;
     padding: 10px 20px;
