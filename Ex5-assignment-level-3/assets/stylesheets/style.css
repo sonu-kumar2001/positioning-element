@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* grid */ 
+/* general */ 
 body {
     background-color: #5385C1;
 }
@@ -55,7 +55,6 @@ body {
     padding: 20px;
     margin: 0 auto;
 }
-/* typography */
 h3 {
     font-size: 25px;
 }
@@ -74,6 +73,9 @@ p {
 }
 a {
     text-decoration: none;
+}
+.white {
+    background-color: white;
 }
 /* header */
 header {
@@ -125,7 +127,6 @@ nav {
 }
 /* article */
 .second {
-    background-color: white;
     margin-top: 160px;
     padding: 50px 0;
 }
@@ -173,9 +174,6 @@ article a {
     margin-bottom: 30px;
 }
 /* third column */
-.third {
-    background-color: white;
-}
 .last-cont article {
     float: left;
     width: calc(50% - 60px);
@@ -199,9 +197,7 @@ article a {
     padding-top: 30px;
 }
 /* footer */
-.fourth {
-    background-color: white;
-}
+
 hr {
     border: 0;
     border-top: 1.5px solid #E6E6E6;
